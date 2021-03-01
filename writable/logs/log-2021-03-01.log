@@ -1,0 +1,256 @@
+CRITICAL - 2021-03-01 05:41:09 --> Invalid file: usuarios.php
+#0 C:\wamp64\www\paginacao-ci4\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuarios.php')
+#1 C:\wamp64\www\paginacao-ci4\system\Common.php(1217): CodeIgniter\View\View->render('usuarios', Array, true)
+#2 C:\wamp64\www\paginacao-ci4\app\Controllers\Usuarios.php(11): view('usuarios')
+#3 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#4 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-01 05:41:35 --> Invalid file: usuarios.php
+#0 C:\wamp64\www\paginacao-ci4\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuarios.php')
+#1 C:\wamp64\www\paginacao-ci4\system\Common.php(1217): CodeIgniter\View\View->render('usuarios', Array, true)
+#2 C:\wamp64\www\paginacao-ci4\app\Controllers\Usuarios.php(11): view('usuarios')
+#3 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#4 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-01 05:47:23 --> Object of class CodeIgniter\Pager\Pager could not be converted to string
+#0 C:\wamp64\www\paginacao-ci4\app\Controllers\Usuarios.php(16): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\wamp64\\www\\p...', 16, Array)
+#1 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-01 05:49:11 --> Object of class CodeIgniter\Pager\Pager could not be converted to string
+#0 C:\wamp64\www\paginacao-ci4\app\Controllers\Usuarios.php(16): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\wamp64\\www\\p...', 16, Array)
+#1 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-01 05:49:43 --> Object of class CodeIgniter\Pager\Pager could not be converted to string
+#0 C:\wamp64\www\paginacao-ci4\app\Controllers\Usuarios.php(16): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\wamp64\\www\\p...', 16, Array)
+#1 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-03-01 05:51:27 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-03-01 05:51:27 --> Unable to connect to the database.
+#0 C:\wamp64\www\paginacao-ci4\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\paginacao-ci4\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\wamp64\www\paginacao-ci4\system\Model.php(570): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 C:\wamp64\www\paginacao-ci4\system\BaseModel.php(1140): CodeIgniter\Model->countAllResults(false)
+#4 C:\wamp64\www\paginacao-ci4\app\Controllers\Usuarios.php(15): CodeIgniter\BaseModel->paginate(10)
+#5 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#6 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-01 05:51:41 --> mysqli_sql_exception: Unknown column 'usuarios.deleted_at' in 'where clause' in C:\wamp64\www\paginacao-ci4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\paginacao-ci4\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\wamp64\www\paginacao-ci4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\wamp64\www\paginacao-ci4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\wamp64\www\paginacao-ci4\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\wamp64\www\paginacao-ci4\system\Model.php(570): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\wamp64\www\paginacao-ci4\system\BaseModel.php(1140): CodeIgniter\Model->countAllResults(false)
+#6 C:\wamp64\www\paginacao-ci4\app\Controllers\Usuarios.php(15): CodeIgniter\BaseModel->paginate(10)
+#7 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#8 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#9 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-03-01 05:51:41 --> Unknown column 'usuarios.deleted_at' in 'where clause'
+#0 C:\wamp64\www\paginacao-ci4\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\wamp64\www\paginacao-ci4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\wamp64\www\paginacao-ci4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\wamp64\www\paginacao-ci4\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\wamp64\www\paginacao-ci4\system\Model.php(570): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\wamp64\www\paginacao-ci4\system\BaseModel.php(1140): CodeIgniter\Model->countAllResults(false)
+#6 C:\wamp64\www\paginacao-ci4\app\Controllers\Usuarios.php(15): CodeIgniter\BaseModel->paginate(10)
+#7 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#8 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#9 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-03-01 05:53:51 --> Array to string conversion
+#0 C:\wamp64\www\paginacao-ci4\app\Controllers\Usuarios.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\p...', 19, Array)
+#1 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-01 05:55:13 --> Cannot use object of type CodeIgniter\Pager\Pager as array
+#0 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#1 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-01 05:55:41 --> Undefined property: CodeIgniter\Pager\Pager::$hasMore
+#0 C:\wamp64\www\paginacao-ci4\app\Controllers\Usuarios.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 19, Array)
+#1 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-01 05:58:27 --> Undefined variable: page
+#0 C:\wamp64\www\paginacao-ci4\app\Views\usuarios.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 1, Array)
+#1 C:\wamp64\www\paginacao-ci4\system\View\View.php(220): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\paginacao-ci4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\paginacao-ci4\system\Common.php(1217): CodeIgniter\View\View->render('usuarios', Array, true)
+#4 C:\wamp64\www\paginacao-ci4\app\Controllers\Usuarios.php(21): view('usuarios', Array)
+#5 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#6 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-01 05:59:31 --> Undefined property: CodeIgniter\Pager\Pager::$hasMore
+#0 C:\wamp64\www\paginacao-ci4\app\Controllers\Usuarios.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 19, Array)
+#1 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-01 06:00:58 --> Cannot use object of type CodeIgniter\Pager\Pager as array
+#0 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#1 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-01 06:01:30 --> Undefined property: CodeIgniter\Pager\Pager::$hasMore
+#0 C:\wamp64\www\paginacao-ci4\app\Controllers\Usuarios.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 19, Array)
+#1 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-01 06:02:36 --> Cannot use object of type CodeIgniter\Pager\Pager as array
+#0 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#1 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-01 06:02:51 --> Undefined property: CodeIgniter\Pager\Pager::$default
+#0 C:\wamp64\www\paginacao-ci4\app\Controllers\Usuarios.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 19, Array)
+#1 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-01 06:03:15 --> Cannot use object of type CodeIgniter\Pager\Pager as array
+#0 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#1 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-01 06:04:31 --> Cannot use object of type CodeIgniter\Pager\Pager as array
+#0 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#1 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-01 06:04:47 --> Cannot use object of type CodeIgniter\Pager\Pager as array
+#0 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#1 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-01 06:09:14 --> Trying to get property 'total' of non-object
+#0 C:\wamp64\www\paginacao-ci4\app\Controllers\Usuarios.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\p...', 19, Array)
+#1 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-01 06:09:36 --> Call to a member function total() on bool
+#0 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#1 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-01 06:11:25 --> Call to undefined method CodeIgniter\Pager\Pager::total()
+#0 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#1 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-01 06:11:49 --> Undefined property: CodeIgniter\Pager\Pager::$total
+#0 C:\wamp64\www\paginacao-ci4\app\Controllers\Usuarios.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\p...', 19, Array)
+#1 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-01 06:12:15 --> Cannot use object of type CodeIgniter\Pager\Pager as array
+#0 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#1 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-01 06:12:35 --> Cannot use object of type CodeIgniter\Pager\Pager as array
+#0 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#1 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-01 06:13:56 --> Cannot use object of type CodeIgniter\Pager\Pager as array
+#0 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#1 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-01 06:14:26 --> syntax error, unexpected '.'
+#0 C:\wamp64\www\paginacao-ci4\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Usuarios')
+#1 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Usuarios')
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-01 06:23:04 --> Undefined variable: results
+#0 C:\wamp64\www\paginacao-ci4\app\Views\usuarios.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 1, Array)
+#1 C:\wamp64\www\paginacao-ci4\system\View\View.php(220): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\paginacao-ci4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\paginacao-ci4\system\Common.php(1217): CodeIgniter\View\View->render('usuarios', Array, true)
+#4 C:\wamp64\www\paginacao-ci4\app\Controllers\Usuarios.php(23): view('usuarios', Array)
+#5 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#6 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-01 06:32:13 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, array given, called in C:\wamp64\www\paginacao-ci4\system\Model.php on line 836
+#0 C:\wamp64\www\paginacao-ci4\system\Model.php(836): CodeIgniter\Database\BaseBuilder->orderBy(Array)
+#1 C:\wamp64\www\paginacao-ci4\app\Controllers\Usuarios.php(15): CodeIgniter\Model->__call('orderBy', Array)
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#3 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#4 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-01 06:42:02 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, array given, called in C:\wamp64\www\paginacao-ci4\system\Model.php on line 836
+#0 C:\wamp64\www\paginacao-ci4\system\Model.php(836): CodeIgniter\Database\BaseBuilder->orderBy(Array)
+#1 C:\wamp64\www\paginacao-ci4\app\Controllers\Usuarios.php(15): CodeIgniter\Model->__call('orderBy', Array)
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#3 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#4 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-01 06:42:24 --> There is no data to update.
+#0 C:\wamp64\www\paginacao-ci4\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\paginacao-ci4\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\paginacao-ci4\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, NULL)
+#3 C:\wamp64\www\paginacao-ci4\app\Controllers\Usuarios.php(14): CodeIgniter\Model->update()
+#4 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#5 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#6 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-01 06:42:43 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, array given, called in C:\wamp64\www\paginacao-ci4\system\Model.php on line 836
+#0 C:\wamp64\www\paginacao-ci4\system\Model.php(836): CodeIgniter\Database\BaseBuilder->orderBy(Array)
+#1 C:\wamp64\www\paginacao-ci4\app\Controllers\Usuarios.php(15): CodeIgniter\Model->__call('orderBy', Array)
+#2 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(936): App\Controllers\Usuarios->index()
+#3 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#4 C:\wamp64\www\paginacao-ci4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\paginacao-ci4\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
