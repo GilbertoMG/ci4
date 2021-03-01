@@ -12,7 +12,7 @@ class Usuarios extends Controller
 		$model = new \App\Models\UsuariosModel();
 
         $data = [
-            'results' => $model->orderBy('id','desc')->paginate(),
+            'results' => $model->orderBy('id','desc')->paginate(15),
             'pager' => $model->pager,
         ];
        
