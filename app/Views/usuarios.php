@@ -5,7 +5,7 @@
   
   <?php
   else:
-    echo 'TOTAL '. $pager->getTotal();
+    echo 'Total de registros encotrados '. $pager->getTotal();
     ?>
   
       <?= $pager->links() ?>
